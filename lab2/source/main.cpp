@@ -46,7 +46,7 @@ class SocketDemo {
     static constexpr size_t REMOTE_PORT = 443; // tls port
 #else
     // static constexpr size_t REMOTE_PORT = 80; // standard HTTP port
-    static constexpr size_t REMOTE_PORT = 8889; // tls port
+    static constexpr size_t REMOTE_PORT = 8889; // CHANGE THIS
 #endif // MBED_CONF_APP_USE_TLS_SOCKET
 
 public:
